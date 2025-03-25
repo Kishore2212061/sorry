@@ -1,23 +1,11 @@
 import { motion, useAnimation } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Heart, Github, Linkedin, Mail, Sparkles, Gift, Stars, Moon, Flower, Cloud } from "lucide-react";
+import { Heart, Github, Linkedin, Mail, Sparkles, Gift, Stars, Moon, Cloud } from "lucide-react";
 
 const message = "SORRY";
 const fullMessage = "Please Forgive Me 💝";
 
-const romanticGradients = [
-  "from-pink-400 to-pink-600",
-  "from-rose-500 to-pink-400",
-  "from-pink-600 to-rose-500"
-];
 
-const flowerColors = [
-  "text-pink-300",
-  "text-rose-400",
-  "text-purple-300",
-  "text-indigo-300",
-  "text-violet-400"
-];
 
 const realFlowerImages = [
   "https://images.unsplash.com/photo-1494972308805-463bc619d34e?auto=format&fit=crop&q=80&w=300",
