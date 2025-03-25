@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.drop-shadow-glow {
+  filter: drop-shadow(0 0 10px rgba(248, 113, 113, 0.5));
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
