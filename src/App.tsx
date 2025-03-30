@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Heart, Github, Linkedin, Mail, Sparkles, Gift, Stars, Moon, Cloud } from "lucide-react";
 
 const message = "SORRY";
-const fullMessage = "Please Forgive Me 💝";
+const fullMessage = "Please Forgive Me ...";
 
 
 
@@ -374,10 +374,7 @@ export default function App() {
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <Heart
-                    className="inline-block text-red-400 w-12 h-12 md:w-16 md:h-16 drop-shadow-[0_0_15px_rgba(248,113,113,0.7)]"
-                    fill="#f87171"
-                  />
+
                 </motion.div>
               </motion.div>
             )}
