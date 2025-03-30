@@ -1,6 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Heart, Github, Linkedin, Mail, Sparkles, Gift, Stars, Moon, Cloud } from "lucide-react";
+import { Github, Linkedin, Mail, Sparkles, Gift, Stars, Moon, Cloud } from "lucide-react";
 
 const message = "SORRY";
 const fullMessage = "Please Forgive Me ...";
